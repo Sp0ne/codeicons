@@ -1,4 +1,4 @@
-# Webdevicons
+# Codeicons
 
 A simple icon's collection for development languages, programming tools and other work environment.
 

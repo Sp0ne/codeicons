@@ -1,0 +1,359 @@
+@import "variables";
+
+@font-face {
+  font-family: 'codeicons';
+  src:  url('#{$icomoon-font-path}/codeicons.eot?odlk3a');
+  src:  url('#{$icomoon-font-path}/codeicons.eot?odlk3a#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codeicons.ttf?odlk3a') format('truetype'),
+    url('#{$icomoon-font-path}/codeicons.woff?odlk3a') format('woff'),
+    url('#{$icomoon-font-path}/codeicons.svg?odlk3a#codeicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="codeicon-"], [class*=" codeicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'codeicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.codeicon-android {
+  &:before {
+    content: $codeicon-android;
+  }
+}
+.codeicon-angularjs {
+  &:before {
+    content: $codeicon-angularjs;
+  }
+}
+.codeicon-apache {
+  &:before {
+    content: $codeicon-apache;
+  }
+}
+.codeicon-atom {
+  &:before {
+    content: $codeicon-atom;
+  }
+}
+.codeicon-bitbucket {
+  &:before {
+    content: $codeicon-bitbucket;
+  }
+}
+.codeicon-bootstrap {
+  &:before {
+    content: $codeicon-bootstrap;
+  }
+}
+.codeicon-bower {
+  &:before {
+    content: $codeicon-bower;
+  }
+}
+.codeicon-bower-line {
+  &:before {
+    content: $codeicon-bower-line;
+  }
+}
+.codeicon-chrome {
+  &:before {
+    content: $codeicon-chrome;
+  }
+}
+.codeicon-cnormal {
+  &:before {
+    content: $codeicon-cnormal;
+  }
+}
+.codeicon-cnormal-line {
+  &:before {
+    content: $codeicon-cnormal-line;
+  }
+}
+.codeicon-codeigniter {
+  &:before {
+    content: $codeicon-codeigniter;
+  }
+}
+.codeicon-codepen {
+  &:before {
+    content: $codeicon-codepen;
+  }
+}
+.codeicon-codrops {
+  &:before {
+    content: $codeicon-codrops;
+  }
+}
+.codeicon-coffeescript {
+  &:before {
+    content: $codeicon-coffeescript;
+  }
+}
+.codeicon-composer {
+  &:before {
+    content: $codeicon-composer;
+  }
+}
+.codeicon-cplusplus {
+  &:before {
+    content: $codeicon-cplusplus;
+  }
+}
+.codeicon-cplusplus-line {
+  &:before {
+    content: $codeicon-cplusplus-line;
+  }
+}
+.codeicon-creativecommons {
+  &:before {
+    content: $codeicon-creativecommons;
+  }
+}
+.codeicon-css3 {
+  &:before {
+    content: $codeicon-css3;
+  }
+}
+.codeicon-debian {
+  &:before {
+    content: $codeicon-debian;
+  }
+}
+.codeicon-docker {
+  &:before {
+    content: $codeicon-docker;
+  }
+}
+.codeicon-doctrine {
+  &:before {
+    content: $codeicon-doctrine;
+  }
+}
+.codeicon-doctrine-line {
+  &:before {
+    content: $codeicon-doctrine-line;
+  }
+}
+.codeicon-dropbox {
+  &:before {
+    content: $codeicon-dropbox;
+  }
+}
+.codeicon-firefox {
+  &:before {
+    content: $codeicon-firefox;
+  }
+}
+.codeicon-git {
+  &:before {
+    content: $codeicon-git;
+  }
+}
+.codeicon-github {
+  &:before {
+    content: $codeicon-github;
+  }
+}
+.codeicon-gitlab {
+  &:before {
+    content: $codeicon-gitlab;
+  }
+}
+.codeicon-grunt {
+  &:before {
+    content: $codeicon-grunt;
+  }
+}
+.codeicon-grunt-line {
+  &:before {
+    content: $codeicon-grunt-line;
+  }
+}
+.codeicon-gulp {
+  &:before {
+    content: $codeicon-gulp;
+  }
+}
+.codeicon-html5 {
+  &:before {
+    content: $codeicon-html5;
+  }
+}
+.codeicon-illustrator {
+  &:before {
+    content: $codeicon-illustrator;
+  }
+}
+.codeicon-in2com {
+  &:before {
+    content: $codeicon-in2com;
+  }
+}
+.codeicon-indesign {
+  &:before {
+    content: $codeicon-indesign;
+  }
+}
+.codeicon-ionic {
+  &:before {
+    content: $codeicon-ionic;
+  }
+}
+.codeicon-java {
+  &:before {
+    content: $codeicon-java;
+  }
+}
+.codeicon-javascript {
+  &:before {
+    content: $codeicon-javascript;
+  }
+}
+.codeicon-jquery {
+  &:before {
+    content: $codeicon-jquery;
+  }
+}
+.codeicon-laravel {
+  &:before {
+    content: $codeicon-laravel;
+  }
+}
+.codeicon-less {
+  &:before {
+    content: $codeicon-less;
+  }
+}
+.codeicon-mysql {
+  &:before {
+    content: $codeicon-mysql;
+  }
+}
+.codeicon-nodejs {
+  &:before {
+    content: $codeicon-nodejs;
+  }
+}
+.codeicon-npm {
+  &:before {
+    content: $codeicon-npm;
+  }
+}
+.codeicon-photoshop {
+  &:before {
+    content: $codeicon-photoshop;
+  }
+}
+.codeicon-php {
+  &:before {
+    content: $codeicon-php;
+  }
+}
+.codeicon-phpstorm {
+  &:before {
+    content: $codeicon-phpstorm;
+  }
+}
+.codeicon-premierepro {
+  &:before {
+    content: $codeicon-premierepro;
+  }
+}
+.codeicon-rails {
+  &:before {
+    content: $codeicon-rails;
+  }
+}
+.codeicon-react {
+  &:before {
+    content: $codeicon-react;
+  }
+}
+.codeicon-redhat {
+  &:before {
+    content: $codeicon-redhat;
+  }
+}
+.codeicon-ruby {
+  &:before {
+    content: $codeicon-ruby;
+  }
+}
+.codeicon-sass {
+  &:before {
+    content: $codeicon-sass;
+  }
+}
+.codeicon-slimphp {
+  &:before {
+    content: $codeicon-slimphp;
+  }
+}
+.codeicon-sourcetree {
+  &:before {
+    content: $codeicon-sourcetree;
+  }
+}
+.codeicon-ssh {
+  &:before {
+    content: $codeicon-ssh;
+  }
+}
+.codeicon-sublime {
+  &:before {
+    content: $codeicon-sublime;
+  }
+}
+.codeicon-symfony {
+  &:before {
+    content: $codeicon-symfony;
+  }
+}
+.codeicon-terminal {
+  &:before {
+    content: $codeicon-terminal;
+  }
+}
+.codeicon-trello {
+  &:before {
+    content: $codeicon-trello;
+  }
+}
+.codeicon-ubuntu {
+  &:before {
+    content: $codeicon-ubuntu;
+  }
+}
+.codeicon-vim {
+  &:before {
+    content: $codeicon-vim;
+  }
+}
+.codeicon-w3c {
+  &:before {
+    content: $codeicon-w3c;
+  }
+}
+.codeicon-wordpress {
+  &:before {
+    content: $codeicon-wordpress;
+  }
+}
+.codeicon-zend {
+  &:before {
+    content: $codeicon-zend;
+  }
+}
+

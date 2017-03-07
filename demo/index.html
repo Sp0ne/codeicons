@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>codeicons demo</title>
+    <meta name="description" content="Programming, Languages, Workflow, icons collection By Vinces.io">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/codeicons.css">
+    <style media="screen">
+    body {
+      margin: 5rem;
+      text-align: center;
+      background: rgb(245, 245, 245);
+    }
+    .borders {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border: 8px solid #60be86;
+      z-index: -1;
+    }
+    i {
+      display: inline-block;
+      margin: 2rem;
+      font-size: 5rem;
+    }
+    img {
+      max-width: 5rem;
+    }
+    h4 {
+      margin: 0;
+      color: #60be86;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        function loadJSON(callback) {   
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', './codeicons.json', true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                }
+            };
+            xobj.send(null);  
+        }
+
+        function init() {
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var objJson = JSON.parse(response);
+                $.each(objJson, function(i) { 
+                    $("<i class=\"codeicon-" + objJson[i].name + "\"></i>").appendTo('.container');
+                });
+            });
+        }
+        init();
+    </script>
+</head>
+<body>
+
+    <div class="container"></div>
+
+</body>
+</html>

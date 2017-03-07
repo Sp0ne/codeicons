@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'codeicons';
+  src:  url('../fonts/codeicons.eot');
+  src:  url('../fonts/codeicons.eot#iefix') format('embedded-opentype'),
+    url('../fonts/codeicons.ttf') format('truetype'),
+    url('../fonts/codeicons.woff') format('woff'),
+    url('../fonts/codeicons.svg#codeicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="codeicon-"], [class*=" codeicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'codeicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.codeicon-android:before {
+  content: "\e900";
+}
+.codeicon-angularjs:before {
+  content: "\e901";
+}
+.codeicon-apache:before {
+  content: "\e902";
+}
+.codeicon-atom:before {
+  content: "\e903";
+}
+.codeicon-bitbucket:before {
+  content: "\e904";
+}
+.codeicon-bootstrap:before {
+  content: "\e905";
+}
+.codeicon-bower:before {
+  content: "\e906";
+}
+.codeicon-bower-line:before {
+  content: "\e907";
+}
+.codeicon-chrome:before {
+  content: "\e908";
+}
+.codeicon-cnormal:before {
+  content: "\e909";
+}
+.codeicon-cnormal-line:before {
+  content: "\e90a";
+}
+.codeicon-codeigniter:before {
+  content: "\e90b";
+}
+.codeicon-codepen:before {
+  content: "\e90c";
+}
+.codeicon-codrops:before {
+  content: "\e90d";
+}
+.codeicon-coffeescript:before {
+  content: "\e90e";
+}
+.codeicon-composer:before {
+  content: "\e90f";
+}
+.codeicon-cplusplus:before {
+  content: "\e910";
+}
+.codeicon-cplusplus-line:before {
+  content: "\e911";
+}
+.codeicon-creativecommons:before {
+  content: "\e912";
+}
+.codeicon-css3:before {
+  content: "\e913";
+}
+.codeicon-debian:before {
+  content: "\e914";
+}
+.codeicon-docker:before {
+  content: "\e915";
+}
+.codeicon-doctrine:before {
+  content: "\e916";
+}
+.codeicon-doctrine-line:before {
+  content: "\e917";
+}
+.codeicon-dropbox:before {
+  content: "\e918";
+}
+.codeicon-firefox:before {
+  content: "\e919";
+}
+.codeicon-git:before {
+  content: "\e91a";
+}
+.codeicon-github:before {
+  content: "\e91b";
+}
+.codeicon-gitlab:before {
+  content: "\e91c";
+}
+.codeicon-grunt:before {
+  content: "\e91d";
+}
+.codeicon-grunt-line:before {
+  content: "\e91e";
+}
+.codeicon-gulp:before {
+  content: "\e91f";
+}
+.codeicon-html5:before {
+  content: "\e920";
+}
+.codeicon-illustrator:before {
+  content: "\e921";
+}
+.codeicon-in2com:before {
+  content: "\e922";
+}
+.codeicon-indesign:before {
+  content: "\e923";
+}
+.codeicon-ionic:before {
+  content: "\e924";
+}
+.codeicon-java:before {
+  content: "\e925";
+}
+.codeicon-javascript:before {
+  content: "\e926";
+}
+.codeicon-jquery:before {
+  content: "\e927";
+}
+.codeicon-laravel:before {
+  content: "\e928";
+}
+.codeicon-less:before {
+  content: "\e929";
+}
+.codeicon-mysql:before {
+  content: "\e92a";
+}
+.codeicon-nodejs:before {
+  content: "\e92b";
+}
+.codeicon-npm:before {
+  content: "\e92c";
+}
+.codeicon-photoshop:before {
+  content: "\e92d";
+}
+.codeicon-php:before {
+  content: "\e92e";
+}
+.codeicon-phpstorm:before {
+  content: "\e92f";
+}
+.codeicon-premierepro:before {
+  content: "\e930";
+}
+.codeicon-rails:before {
+  content: "\e931";
+}
+.codeicon-react:before {
+  content: "\e932";
+}
+.codeicon-redhat:before {
+  content: "\e933";
+}
+.codeicon-ruby:before {
+  content: "\e934";
+}
+.codeicon-sass:before {
+  content: "\e935";
+}
+.codeicon-slimphp:before {
+  content: "\e936";
+}
+.codeicon-sourcetree:before {
+  content: "\e937";
+}
+.codeicon-ssh:before {
+  content: "\e938";
+}
+.codeicon-sublime:before {
+  content: "\e939";
+}
+.codeicon-symfony:before {
+  content: "\e93a";
+}
+.codeicon-terminal:before {
+  content: "\e93b";
+}
+.codeicon-trello:before {
+  content: "\e93c";
+}
+.codeicon-ubuntu:before {
+  content: "\e93d";
+}
+.codeicon-vim:before {
+  content: "\e93e";
+}
+.codeicon-w3c:before {
+  content: "\e93f";
+}
+.codeicon-wordpress:before {
+  content: "\e940";
+}
+.codeicon-zend:before {
+  content: "\e941";
+}
+

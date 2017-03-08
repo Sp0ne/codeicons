@@ -6,7 +6,6 @@
 A simple icon's collection for development languages, programming tools and other work environment.
 
 
-
 ---
 
 
@@ -19,6 +18,7 @@ A simple icon's collection for development languages, programming tools and othe
 >   * Register Npm packages 
 >   * Better how-to-use section (link, comment, img...)
 >   * Add more icons
+>   * Add colored icons (full colored)
 
 
 
@@ -54,9 +54,12 @@ _2 ways of using Codeicons:_
 ```html
   <!-- <head> -->
   <link rel="stylesheet" href="codeicon.css"/>
+
+  <!-- add style -->
   <style type="text/css" media="screen">
   	[class^="codeicon-"] { ... }
   </style>
+
   <!-- <body> -->
   <i class="codeicon-git-plain"></i>
 ```
@@ -80,6 +83,7 @@ _2 ways of using Codeicons:_
 
 ### Changelog
 
+- v1.1.1 - Minors bower fixs and demo.
 - v1.1.0 - Add icons svg + add src new icon + readme + minors fixs.
 - v1.0.0 - Initialisation Project and Packages on bower.
 

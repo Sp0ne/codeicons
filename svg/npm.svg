@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="595.279px" height="595.275px" viewBox="0 123.307 595.279 595.275" enable-background="new 0 123.307 595.279 595.275"
-	 xml:space="preserve">
-<path fill="#FF0000" d="M24.233,404.938v91.169H176v30.57h121.188v-30.57h271.86V313.786H24.25v91.169L24.233,404.938z
-	 M175.983,404.938v60.599h-30.579V374.91h-29.476v90.625H53.701V344.34h122.282V404.938z M327.537,405.04l-0.339,60.598
-	l-59.496-0.203v30.674h-62.227V344.34h122.282L327.537,405.04L327.537,405.04z M539.53,404.938v60.599h-30.569V374.91h-30.571
-	v91.167l-30.57-0.645V374.91h-29.483v90.625h-61.142V344.34H539.53V404.938L539.53,404.938z M267.703,404.938v30.011h28.392v-60.056
-	h-28.392v30.028V404.938z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<path fill="#FF0000" d="M1,60.5v21.1h35.1v7.1h28v-7.1H127V39.4H1V60.5L1,60.5z M36.1,60.5v14H29v-21h-6.8v21H7.8v-28h28.3V60.5z
+	 M71.2,60.5l-0.1,14H57.3v7.1H42.9V46.5h28.3V60.5L71.2,60.5z M120.2,60.5v14h-7.1v-21H106v21.1l-7.1-0.2V53.5h-6.8v21H78v-28h42.2
+	V60.5L120.2,60.5z M57.3,60.5v6.9h6.6V53.5h-6.6V60.5L57.3,60.5z"/>
 </svg>

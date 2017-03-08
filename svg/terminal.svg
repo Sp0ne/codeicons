@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="595.279px" height="595.275px" viewBox="0 123.307 595.279 595.275" enable-background="new 0 123.307 595.279 595.275"
-	 xml:space="preserve">
-<path fill="#444444" d="M521.828,195.157H71.576c-20.714,0-37.519,16.806-37.519,37.53V607.89c0,20.713,16.805,37.529,37.519,37.529
-	h450.252c20.714,0,37.53-16.816,37.53-37.529V232.687C559.359,211.962,542.542,195.157,521.828,195.157z M109.095,457.814
-	l75.05-75.05l-75.05-75.038l37.529-37.519l112.559,112.557L146.625,495.343L109.095,457.814z M409.282,495.343H259.183v-37.529
-	h150.099V495.343z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<path fill="#444444" d="M118,10H10c-5,0-9,4-9,9v90c0,5,4,9,9,9h108c5,0,9-4,9-9V19C127,14.1,123,10,118,10z M19,73l18-18L19,37l9-9
+	l27,27L28,82L19,73z M91,82H55v-9h36V82z"/>
 </svg>

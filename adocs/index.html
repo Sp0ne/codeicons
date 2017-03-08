@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>codeicons demo</title>
+    <meta name="description" content="Programming, Languages, Workflow, icons collection By Vinces.io">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/codeicons.css">
+    <style media="screen">
+    body {
+      margin: 5rem;
+      text-align: center;
+      background: rgb(245, 245, 245);
+    }
+    i {
+      display: inline-block;
+      margin: 2rem;
+      font-size: 5rem;
+    }
+    i:hover {
+      opacity: 0.8;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        $.getJSON('codeicons.json', function(data) {
+            $.each(data, function(index) {
+                console.log(data[index].name);
+                $("<i class=\"codeicon-" + data[index].name + "\"></i>").appendTo('.container');
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div class="container"></div>
+
+</body>
+</html>

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codeicons';
-  src:  url('#{$icomoon-font-path}/codeicons.eot?odlk3a');
-  src:  url('#{$icomoon-font-path}/codeicons.eot?odlk3a#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codeicons.ttf?odlk3a') format('truetype'),
-    url('#{$icomoon-font-path}/codeicons.woff?odlk3a') format('woff'),
-    url('#{$icomoon-font-path}/codeicons.svg?odlk3a#codeicons') format('svg');
+  src:  url('#{$icomoon-font-path}/codeicons.eot?7zd5zb');
+  src:  url('#{$icomoon-font-path}/codeicons.eot?7zd5zb#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codeicons.ttf?7zd5zb') format('truetype'),
+    url('#{$icomoon-font-path}/codeicons.woff?7zd5zb') format('woff'),
+    url('#{$icomoon-font-path}/codeicons.svg?7zd5zb#codeicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,6 +39,11 @@
 .codeicon-apache {
   &:before {
     content: $codeicon-apache;
+  }
+}
+.codeicon-apple {
+  &:before {
+    content: $codeicon-apple;
   }
 }
 .codeicon-atom {
@@ -126,6 +131,11 @@
     content: $codeicon-css3;
   }
 }
+.codeicon-csstricks {
+  &:before {
+    content: $codeicon-csstricks;
+  }
+}
 .codeicon-debian {
   &:before {
     content: $codeicon-debian;
@@ -156,6 +166,11 @@
     content: $codeicon-firefox;
   }
 }
+.codeicon-gimp {
+  &:before {
+    content: $codeicon-gimp;
+  }
+}
 .codeicon-git {
   &:before {
     content: $codeicon-git;
@@ -171,6 +186,11 @@
     content: $codeicon-gitlab;
   }
 }
+.codeicon-go {
+  &:before {
+    content: $codeicon-go;
+  }
+}
 .codeicon-grunt {
   &:before {
     content: $codeicon-grunt;
@@ -184,6 +204,11 @@
 .codeicon-gulp {
   &:before {
     content: $codeicon-gulp;
+  }
+}
+.codeicon-heroku {
+  &:before {
+    content: $codeicon-heroku;
   }
 }
 .codeicon-html5 {
@@ -234,6 +259,11 @@
 .codeicon-less {
   &:before {
     content: $codeicon-less;
+  }
+}
+.codeicon-linux {
+  &:before {
+    content: $codeicon-linux;
   }
 }
 .codeicon-mysql {
@@ -314,6 +344,11 @@
 .codeicon-sublime {
   &:before {
     content: $codeicon-sublime;
+  }
+}
+.codeicon-swift {
+  &:before {
+    content: $codeicon-swift;
   }
 }
 .codeicon-symfony {

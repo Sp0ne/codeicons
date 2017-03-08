@@ -12,6 +12,10 @@
     "tags": ["php"]
   },
   {
+    "name": "apple",
+    "tags": ["os", "mobile"]
+  },
+  {
     "name": "atom",
     "tags": ["editor"]
   },
@@ -80,6 +84,10 @@
     "tags": ["css", "language", "programming"]
   },
   {
+    "name": "csstricks",
+    "tags": ["css", "inspiration"]
+  },
+  {
     "name": "debian",
     "tags": ["os", "server"]
   },
@@ -104,6 +112,10 @@
     "tags": ["browser"]
   },
   {
+    "name": "gimp",
+    "tags": ["creative", "graphic"]
+  },
+  {
     "name": "git",
     "tags": ["version-control"]
   },
@@ -116,6 +128,10 @@
     "tags": ["version-control"]
   },
   {
+    "name": "go",
+    "tags": ["language"]
+  },
+  {
     "name": "grunt",
     "tags": ["task-runner", "nodejs"]
   },
@@ -126,6 +142,10 @@
   {
     "name": "gulp",
     "tags": ["task-runner", "nodejs"]
+  },
+  {
+    "name": "heroku",
+    "tags": ["platform", "cloud"]
   },
   {
     "name": "html5",
@@ -166,6 +186,10 @@
   {
     "name": "less",
     "tags": ["css", "pre-processor"]
+  },
+  {
+    "name": "linux",
+    "tags": ["os"]
   },
   {
     "name": "mysql",
@@ -230,6 +254,10 @@
   {
     "name": "sublime",
     "tags": ["editor"]
+  },
+  {
+    "name": "swift",
+    "tags": ["language", "mobile"]
   },
   {
     "name": "symfony",

@@ -5,22 +5,7 @@
 
 A simple icon's collection for development languages, programming tools and other work environment.
 
-
----
-
-
-
-> Under construction - Stable but incomplete...
-> 
-> Road Map in progress : 
->   * Contributing section
->   * Make better demo
->   * Register Npm packages 
->   * Better how-to-use section (link, comment, img...)
->   * Add more icons
->   * Add colored icons (full colored)
-
-
+![Codeicons preview](http://i.imgur.com/333DkF6.jpg)
 
 ---
 
@@ -35,7 +20,7 @@ Do you have any additional? Drop me a line or support an issue.
 
 ## Install
 
-Install Codeicons as a dependency to your project with Bower
+Install Codeicons as a dependency to your project with _Bower_.
 
 ```bash
   bower install --save codeicons
@@ -45,15 +30,15 @@ Install Codeicons as a dependency to your project with Bower
 
 ## Usage 
 
-_2 ways of using Codeicons:_
+_Ways of using Codeicons:_
 
-#### FONT icons
+**FONT ICONS**
 
-- Import stylesheet, add icon using `<i>` tag and add `<style>` for your project...
+Import stylesheet from vendors, add `<style>` for your project and add icon using `<i>` tag with your class name.
 
 ```html
   <!-- <head> -->
-  <link rel="stylesheet" href="codeicon.css"/>
+  <link rel="stylesheet" href="../codeicons.css"/>
 
   <!-- add style -->
   <style type="text/css" media="screen">
@@ -61,12 +46,13 @@ _2 ways of using Codeicons:_
   </style>
 
   <!-- <body> -->
-  <i class="codeicon-git-plain"></i>
+  <i class="codeicon-git"></i>
 ```
 
-#### SVG icons
 
-- Copy/paste svg code from `/svg` folder...
+**SVG ICONS**
+
+Copy/paste svg code from `/svg` folder in your html code. Add your own class if you want.
 
 ```html
   <!-- <body> -->
@@ -75,9 +61,35 @@ _2 ways of using Codeicons:_
   </svg>
 ```
 
+**Production** _(Optional)_
 
+If you're using Grunt you can copy/paste the fonts with a grunt task [More details](https://github.com/gruntjs/grunt-contrib-copy).
+Load  `npm install grunt-contrib-copy --save-dev` and add a task in your `/GruntFile.js`.
+
+```js
+  // Grunt task for copy files:
+  copy: {
+      fonts: { dest: 'path/fonts', src: ['bower/codeicons/fonts/*'] }
+  }, ...
+  // Add your task in your register Task:
+  grunt.registerTask('default', ['copy:fonts']);
+```
 
 ---
+
+
+
+### Road Map in progress : 
+
+- [ ] Contributing section
+- [ ] Register Npm packages 
+- [ ] Add colored icons (full colored)
+- [x] ~~Better how-to-use section (link, comment, img...)~~
+- [x] ~~Make better demo~~
+
+
+
+- - -
 
 
 

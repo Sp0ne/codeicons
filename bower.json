@@ -1,8 +1,8 @@
 {
   "name": "codeicons",
   "description": "A simple icon's collection for development languages, programming tools and other work environment.",
-  "keywords": [ "programming", "tools", "development", "languages", "icons", "svg", "font" ],
-  "version": "1.1.1",
+  "keywords": [ "codeicons", "programming", "tools", "development", "languages", "icons", "svg", "font", "devicons" ],
+  "version": "1.2.0",
   "homepage": "https://sp0ne.github.io/codeicons/",
   "repository": {
     "type": "git",

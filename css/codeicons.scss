@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codeicons';
-  src:  url('#{$icomoon-font-path}/codeicons.eot?7zd5zb');
-  src:  url('#{$icomoon-font-path}/codeicons.eot?7zd5zb#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codeicons.ttf?7zd5zb') format('truetype'),
-    url('#{$icomoon-font-path}/codeicons.woff?7zd5zb') format('woff'),
-    url('#{$icomoon-font-path}/codeicons.svg?7zd5zb#codeicons') format('svg');
+  src:  url('#{$icomoon-font-path}/codeicons.eot?szi7ty');
+  src:  url('#{$icomoon-font-path}/codeicons.eot?szi7ty#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codeicons.ttf?szi7ty') format('truetype'),
+    url('#{$icomoon-font-path}/codeicons.woff?szi7ty') format('woff'),
+    url('#{$icomoon-font-path}/codeicons.svg?szi7ty#codeicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.codeicon-amazonwebservices {
+  &:before {
+    content: $codeicon-amazonwebservices;
+  }
+}
 .codeicon-android {
   &:before {
     content: $codeicon-android;
@@ -49,6 +54,16 @@
 .codeicon-atom {
   &:before {
     content: $codeicon-atom;
+  }
+}
+.codeicon-babel {
+  &:before {
+    content: $codeicon-babel;
+  }
+}
+.codeicon-backbonejs {
+  &:before {
+    content: $codeicon-backbonejs;
   }
 }
 .codeicon-bitbucket {
@@ -111,6 +126,11 @@
     content: $codeicon-composer;
   }
 }
+.codeicon-confluence {
+  &:before {
+    content: $codeicon-confluence;
+  }
+}
 .codeicon-cplusplus {
   &:before {
     content: $codeicon-cplusplus;
@@ -136,9 +156,19 @@
     content: $codeicon-csstricks;
   }
 }
+.codeicon-cucumber {
+  &:before {
+    content: $codeicon-cucumber;
+  }
+}
 .codeicon-debian {
   &:before {
     content: $codeicon-debian;
+  }
+}
+.codeicon-django {
+  &:before {
+    content: $codeicon-django;
   }
 }
 .codeicon-docker {
@@ -156,14 +186,34 @@
     content: $codeicon-doctrine-line;
   }
 }
+.codeicon-dotnet {
+  &:before {
+    content: $codeicon-dotnet;
+  }
+}
 .codeicon-dropbox {
   &:before {
     content: $codeicon-dropbox;
   }
 }
+.codeicon-drupal {
+  &:before {
+    content: $codeicon-drupal;
+  }
+}
+.codeicon-filezilla {
+  &:before {
+    content: $codeicon-filezilla;
+  }
+}
 .codeicon-firefox {
   &:before {
     content: $codeicon-firefox;
+  }
+}
+.codeicon-foundation {
+  &:before {
+    content: $codeicon-foundation;
   }
 }
 .codeicon-gimp {
@@ -181,6 +231,11 @@
     content: $codeicon-github;
   }
 }
+.codeicon-gitkraken {
+  &:before {
+    content: $codeicon-gitkraken;
+  }
+}
 .codeicon-gitlab {
   &:before {
     content: $codeicon-gitlab;
@@ -189,6 +244,11 @@
 .codeicon-go {
   &:before {
     content: $codeicon-go;
+  }
+}
+.codeicon-gradle {
+  &:before {
+    content: $codeicon-gradle;
   }
 }
 .codeicon-grunt {
@@ -231,9 +291,19 @@
     content: $codeicon-indesign;
   }
 }
+.codeicon-inkscape {
+  &:before {
+    content: $codeicon-inkscape;
+  }
+}
 .codeicon-ionic {
   &:before {
     content: $codeicon-ionic;
+  }
+}
+.codeicon-jasmine {
+  &:before {
+    content: $codeicon-jasmine;
   }
 }
 .codeicon-java {
@@ -246,9 +316,34 @@
     content: $codeicon-javascript;
   }
 }
+.codeicon-jekyll {
+  &:before {
+    content: $codeicon-jekyll;
+  }
+}
+.codeicon-jekyllsmall {
+  &:before {
+    content: $codeicon-jekyllsmall;
+  }
+}
+.codeicon-jenkins {
+  &:before {
+    content: $codeicon-jenkins;
+  }
+}
+.codeicon-jetbrains {
+  &:before {
+    content: $codeicon-jetbrains;
+  }
+}
 .codeicon-jquery {
   &:before {
     content: $codeicon-jquery;
+  }
+}
+.codeicon-krakenjs {
+  &:before {
+    content: $codeicon-krakenjs;
   }
 }
 .codeicon-laravel {
@@ -266,9 +361,24 @@
     content: $codeicon-linux;
   }
 }
+.codeicon-meteor {
+  &:before {
+    content: $codeicon-meteor;
+  }
+}
+.codeicon-mongodb {
+  &:before {
+    content: $codeicon-mongodb;
+  }
+}
 .codeicon-mysql {
   &:before {
     content: $codeicon-mysql;
+  }
+}
+.codeicon-nginx {
+  &:before {
+    content: $codeicon-nginx;
   }
 }
 .codeicon-nodejs {
@@ -276,9 +386,24 @@
     content: $codeicon-nodejs;
   }
 }
+.codeicon-nodewebkit {
+  &:before {
+    content: $codeicon-nodewebkit;
+  }
+}
 .codeicon-npm {
   &:before {
     content: $codeicon-npm;
+  }
+}
+.codeicon-oracle {
+  &:before {
+    content: $codeicon-oracle;
+  }
+}
+.codeicon-perl {
+  &:before {
+    content: $codeicon-perl;
   }
 }
 .codeicon-photoshop {
@@ -296,14 +421,29 @@
     content: $codeicon-phpstorm;
   }
 }
+.codeicon-postgresql {
+  &:before {
+    content: $codeicon-postgresql;
+  }
+}
 .codeicon-premierepro {
   &:before {
     content: $codeicon-premierepro;
   }
 }
+.codeicon-python {
+  &:before {
+    content: $codeicon-python;
+  }
+}
 .codeicon-rails {
   &:before {
     content: $codeicon-rails;
+  }
+}
+.codeicon-raspberry {
+  &:before {
+    content: $codeicon-raspberry;
   }
 }
 .codeicon-react {
@@ -326,6 +466,11 @@
     content: $codeicon-sass;
   }
 }
+.codeicon-sequelize {
+  &:before {
+    content: $codeicon-sequelize;
+  }
+}
 .codeicon-slimphp {
   &:before {
     content: $codeicon-slimphp;
@@ -339,6 +484,11 @@
 .codeicon-ssh {
   &:before {
     content: $codeicon-ssh;
+  }
+}
+.codeicon-stackoverflow {
+  &:before {
+    content: $codeicon-stackoverflow;
   }
 }
 .codeicon-sublime {
@@ -366,6 +516,16 @@
     content: $codeicon-trello;
   }
 }
+.codeicon-twig {
+  &:before {
+    content: $codeicon-twig;
+  }
+}
+.codeicon-typescript {
+  &:before {
+    content: $codeicon-typescript;
+  }
+}
 .codeicon-ubuntu {
   &:before {
     content: $codeicon-ubuntu;
@@ -384,6 +544,16 @@
 .codeicon-wordpress {
   &:before {
     content: $codeicon-wordpress;
+  }
+}
+.codeicon-yaml {
+  &:before {
+    content: $codeicon-yaml;
+  }
+}
+.codeicon-yii {
+  &:before {
+    content: $codeicon-yii;
   }
 }
 .codeicon-zend {

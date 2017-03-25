@@ -3,9 +3,12 @@
 [![GitHub version](https://badge.fury.io/gh/Sp0ne%2Fcodeicons.svg)](https://badge.fury.io/gh/Sp0ne%2Fcodeicons)
 [![Bower version](https://badge.fury.io/bo/codeicons.svg)](https://badge.fury.io/bo/codeicons)
 
-A simple icon's collection for development languages, programming tools and other work environment.
+A simple icon's collection for development languages, programming tools and other work environment. 
 
-![Codeicons preview](http://i.imgur.com/333DkF6.jpg)
+Have a look to the [demo page](https://sp0ne.github.io/codeicons/).
+
+![Codeicons preview](http://i.imgur.com/XYtRtyd.jpg)
+
 
 ---
 
@@ -86,6 +89,7 @@ Load  `npm install grunt-contrib-copy --save-dev` and add a task in your `/Grunt
 - [ ] Add colored icons (full colored)
 - [x] ~~Better how-to-use section (link, comment, img...)~~
 - [x] ~~Make better demo~~
+- [x] ~~Add news icons~~
 
 
 
@@ -95,6 +99,7 @@ Load  `npm install grunt-contrib-copy --save-dev` and add a task in your `/Grunt
 
 ### Changelog
 
+- v1.2.0 - Add news icons svg. (Total : 106 files / ~ 100 icons)
 - v1.1.1 - Minors bower fixs and demo.
 - v1.1.0 - Add icons svg + add src new icon + readme + minors fixs.
 - v1.0.0 - Initialisation Project and Packages on bower.

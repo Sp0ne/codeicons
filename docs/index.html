@@ -8,19 +8,30 @@
     <meta name="description" content="Programming, Languages, Workflow, icons collection By Vinces.io">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="codeicons.css">
+    <link rel="stylesheet" href="codeicons.css"/>
     <style media="screen">
-      body        { margin: 5rem; text-align: center; background: rgb(245, 245, 245); font-family: "Arial", sans-serif; color: #373737; }
-      h1          { font-size: 70px; margin-bottom: 6px; animation: colorAnimate 1.5s linear infinite; letter-spacing: 0.12rem;}
-      h2          { font-size: 18px; text-transform: uppercase; font-weight: light; letter-spacing: 0.12rem; word-spacing: 0.2rem; margin-top: 0; color: #373737;}
-      #container  { display: block; margin-top: 100px; margin-bottom: 100px; }
-      .ci-details { display: inline-block; margin: 1rem; }
-      p           { font-size: 12px; color: grey; text-transform: uppercase; letter-spacing: 0.12rem;}
-      i           { display: inline-block; font-size: 4rem; cursor: pointer; }
-      i:hover     { opacity: 0.8;  animation: colorAnimate 0.8s linear infinite; }
-      @keyframes colorAnimate { 0%{color:#36495E;} 30%{color: #4f6277;} 66%{color: #477370;} 100%{color:#36495E; } }
-      p.infos     { max-width: 500px; margin: 0 auto; font-size: 8px; color: grey; letter-spacing: 0.12rem; line-height: 1.2em;}
+      * { word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; -o-hyphens: auto;  hyphens: auto;}
+      *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+      body                  { margin: 5rem; text-align: center; background: rgb(245, 245, 245); font-family: "Arial", sans-serif; color: #373737; }
+      h1                    { font-size: 70px; margin-bottom: 6px; animation: colorAnimate 1.5s linear infinite; letter-spacing: 0.12rem;}
+      h2                    { font-size: 18px; text-transform: uppercase; font-weight: light; letter-spacing: 0.12rem; word-spacing: 0.2rem; margin-top: 0; color: #373737;}
+      #container            { display: inline-block; margin-top: 100px; margin-bottom: 100px; clear: both; float: none; height: auto; }
+      .ci-details           { display: inline-block; width: 12.5%;float: left;height: 155px;text-align: center; padding: 20px 10px 20px 10px; }
+      .ci-details:hover     { background:#ffffff; }
+      p                     { white-space: nowrap;    overflow: hidden;    text-overflow: ellipsis; font-size: 12px; color: grey; text-transform: uppercase; letter-spacing: 0.12rem;}
+      p::before             { content: "";border-top: 1px solid grey;display: block;width: 25%;margin: 0 auto;height: 15px;}
+      i                     { display: inline-block; font-size: 4.5rem; cursor: pointer; }
+      .ci-details:hover i   { opacity: 0.8;  animation: colorAnimate 0.8s linear infinite; }
+      @keyframes colorAnimate  { 0%{color:#36495E;} 30%{color: #4f6277;} 66%{color: #477370;} 100%{color:#36495E; } }
+      @keyframes fillAnimate   { 0%{fill:#36495E;} 30%{fill: #4f6277;} 66%{fill: #477370;} 100%{fill:#36495E; } }
+      p.infos               { max-width: 500px; margin: 0 auto; font-size: 8px; color: grey; letter-spacing: 0.12rem; line-height: 1.2em;}
+      .github-corner svg    { animation: fillAnimate 0.8s linear infinite;  }
       .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+        @media (min-width: 1200px) { body{margin: 5rem;} .ci-details{ width: 12.5%; } }
+        @media (max-width: 1200px) { body{margin: 4rem;} .ci-details{ width: 16.666%; } }
+        @media (max-width: 992px) { body{margin: 3rem;} .ci-details{ width: 20%; } }
+        @media (max-width: 768px) { body{margin: 2rem;}.ci-details{ width: 25%; } }
+        @media (max-width: 544px) { body{margin: 1rem;}.ci-details{ width: 50%; } }
     </style>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -32,45 +43,51 @@
         { "name": "apache",               "tags": ["php"] },
         { "name": "apple",                "tags": ["os", "mobile"] },
         { "name": "atom",                 "tags": ["editor"] },
-        { "name": "babel",                "tags": ["todo"] },
-        { "name": "backbonejs",           "tags": ["todo"] },
+        { "name": "babel",                "tags": ["todo v.1.2.0"] },
+        { "name": "backbonejs",           "tags": ["todo v.1.2.0"] },
         { "name": "bitbucket",            "tags": ["version-control"] },
         { "name": "bootstrap",            "tags": ["css", "framework"] },
         { "name": "bower",                "tags": ["package", "manager"] },
         { "name": "bower-line",           "tags": ["package", "manager"] },
+        { "name": "bugsense",             "tags": ["todo v.1.3.0"] },
         { "name": "chrome",               "tags": ["os", "browser"] },
         { "name": "cnormal",              "tags": ["language"] },
         { "name": "cnormal-line",         "tags": ["language"] },
+        { "name": "coda",                 "tags": ["todo v.1.3.0"] },
         { "name": "codeigniter",          "tags": ["framework", "php"] },
         { "name": "codepen",              "tags": ["monitoring", "inspiration"] },
         { "name": "codrops",              "tags": ["monitoring", "inspiration"] },
         { "name": "coffeescript",         "tags": ["javascript", "language"] },
+        { "name": "compass",              "tags": ["todo v.1.3.0"] },
         { "name": "composer",             "tags": ["package", "manager"] },
-        { "name": "confluence",           "tags": ["todo"] },
+        { "name": "confluence",           "tags": ["todo v.1.2.0"] },
         { "name": "cplusplus",            "tags": ["language"] },
         { "name": "cplusplus-line",       "tags": ["language"] },
         { "name": "creativecommons",      "tags": ["licence"] },
         { "name": "css3",                 "tags": ["css", "language", "programming"] },
+        { "name": "cssdesk",              "tags": ["todo v.1.3.0"] },
         { "name": "csstricks",            "tags": ["css", "inspiration"] },
-        { "name": "cucumber",             "tags": ["todo"] },
+        { "name": "cucumber",             "tags": ["todo v.1.2.0"] },
         { "name": "debian",               "tags": ["os", "server"] },
-        { "name": "django",               "tags": ["todo"] },
+        { "name": "django",               "tags": ["todo v.1.2.0"] },
         { "name": "docker",               "tags": ["platform", "deploy"] },
         { "name": "doctrine",             "tags": ["orm"] },
         { "name": "doctrine-line",        "tags": ["orm"] },
-        { "name": "dotnet",               "tags": ["todo"] },
+        { "name": "dotnet",               "tags": ["todo v.1.2.0"] },
         { "name": "dropbox",              "tags": ["sharing", "mobile"] },
-        { "name": "drupal",               "tags": ["todo"] },
-        { "name": "filezilla",            "tags": ["todo"] },
+        { "name": "drupal",               "tags": ["todo v.1.2.0"] },
+        { "name": "erlang",               "tags": ["todo v.1.3.0"] },
+        { "name": "filezilla",            "tags": ["todo v.1.2.0"] },
         { "name": "firefox",              "tags": ["browser"] },
-        { "name": "foundation",           "tags": ["todo"] },
+        { "name": "foundation",           "tags": ["todo v.1.2.0"] },
         { "name": "gimp",                 "tags": ["creative", "graphic"] },
         { "name": "git",                  "tags": ["version-control"] },
         { "name": "github",               "tags": ["version-control"] },
-        { "name": "gitkraken",            "tags": ["todo"] },
+        { "name": "gitkraken",            "tags": ["todo v.1.2.0"] },
         { "name": "gitlab",               "tags": ["version-control"] },
         { "name": "go",                   "tags": ["language"] },
         { "name": "gradle",               "tags": ["gradle"] },
+        { "name": "grafikart",            "tags": ["todo v.1.3.0"] },
         { "name": "grunt",                "tags": ["task-runner", "nodejs"] },
         { "name": "grunt-line",           "tags": ["task-runner", "nodejs"] },
         { "name": "gulp",                 "tags": ["task-runner", "nodejs"] },
@@ -79,59 +96,67 @@
         { "name": "illustrator",          "tags": ["creative", "vector"] },
         { "name": "in2com",               "tags": ["bonus", "author"] },
         { "name": "indesign",             "tags": ["creative", "layout"] },
-        { "name": "inkscape",             "tags": ["todo"] },
+        { "name": "inkscape",             "tags": ["todo v.1.2.0"] },
         { "name": "ionic",                "tags": ["framework", "mobile"] },
-        { "name": "jasmine",              "tags": ["todo"] },
+        { "name": "jasmine",              "tags": ["todo v.1.2.0"] },
         { "name": "java",                 "tags": ["programming", "language"] },
         { "name": "javascript",           "tags": ["programming", "language"] },
-        { "name": "jekyll",               "tags": ["todo"] },
-        { "name": "jekyllsmall",          "tags": ["todo"] },
-        { "name": "jenkins",              "tags": ["todo"] },
-        { "name": "jetbrains",            "tags": ["todo"] },
+        { "name": "jeet",                 "tags": ["todo v.1.3.0"] },
+        { "name": "jekyll",               "tags": ["todo v.1.2.0"] },
+        { "name": "jekyllsmall",          "tags": ["todo v.1.2.0"] },
+        { "name": "jenkins",              "tags": ["todo v.1.2.0"] },
+        { "name": "jetbrains",            "tags": ["todo v.1.2.0"] },
         { "name": "jquery",               "tags": ["library", "javascript"] },
-        { "name": "krakenjs",             "tags": ["todo"] },
+        { "name": "krakenjs",             "tags": ["todo v.1.2.0"] },
         { "name": "laravel",              "tags": ["php", "framework"] },
         { "name": "less",                 "tags": ["css", "pre-processor"] },
         { "name": "linux",                "tags": ["os"] },
-        { "name": "meteor",               "tags": ["todo"] },
-        { "name": "mongodb",              "tags": ["todo"] },
+        { "name": "meteor",               "tags": ["todo v.1.2.0"] },
+        { "name": "mocha",                "tags": ["todo v.1.3.0"] },
+        { "name": "mongodb",              "tags": ["todo v.1.2.0"] },
         { "name": "mysql",                "tags": ["database", "language"] },
-        { "name": "nginx",                "tags": ["todo"] },
+        { "name": "nginx",                "tags": ["todo v.1.2.0"] },
         { "name": "nodejs",               "tags": ["javascript", "language"] },
-        { "name": "nodewebkit",           "tags": ["todo"] },
+        { "name": "nodewebkit",           "tags": ["todo v.1.2.0"] },
         { "name": "npm",                  "tags": ["nodejs"] },
-        { "name": "oracle",               "tags": ["todo"] },
-        { "name": "perl",                 "tags": ["todo"] },
+        { "name": "oracle",               "tags": ["todo v.1.2.0"] },
+        { "name": "perl",                 "tags": ["todo v.1.2.0"] },
         { "name": "photoshop",            "tags": ["creative", "graphic"] },
         { "name": "php",                  "tags": ["programming", "language"] },
         { "name": "phpstorm",             "tags": ["editor"] },
-        { "name": "postgresql",           "tags": ["todo"] },
+        { "name": "postgresql",           "tags": ["todo v.1.2.0"] },
         { "name": "premierepro",          "tags": ["creative", "videos"] },
-        { "name": "python",               "tags": ["todo"] },
+        { "name": "prolog",               "tags": ["todo v.1.3.0"] },
+        { "name": "purescript",           "tags": ["todo v.1.3.0"] },
+        { "name": "python",               "tags": ["todo v.1.2.0"] },
         { "name": "rails",                "tags": ["framework"] },
-        { "name": "raspberry",            "tags": ["todo"] },
+        { "name": "raspberry",            "tags": ["todo v.1.2.0"] },
         { "name": "react",                "tags": ["framework"] },
         { "name": "redhat",               "tags": ["framework"] },
+        { "name": "redis",                "tags": ["todo v.1.3.0"] },
         { "name": "ruby",                 "tags": ["programming", "language"] },
         { "name": "sass",                 "tags": ["css", "pre-processor"] },
-        { "name": "sequelize",            "tags": ["todo"] },
+        { "name": "sequelize",            "tags": ["todo v.1.2.0"] },
+        { "name": "smashingmagazine",     "tags": ["todo v.1.3.0"] },
         { "name": "slimphp",              "tags": ["php", "framework"] },
         { "name": "sourcetree",           "tags": ["platform", "version-control"] },
         { "name": "ssh",                  "tags": ["security"] },
-        { "name": "stackoverflow",        "tags": ["todo"] },
+        { "name": "stackoverflow",        "tags": ["todo v.1.2.0"] },
         { "name": "sublime",              "tags": ["editor"] },
         { "name": "swift",                "tags": ["language", "mobile"] },
         { "name": "symfony",              "tags": ["php", "framework"] },
         { "name": "terminal",             "tags": ["bash"] },
+        { "name": "travis",               "tags": ["todo v.1.3.0"] },
         { "name": "trello",               "tags": ["platform", "organize"] },
-        { "name": "twig",                 "tags": ["todo"] },
-        { "name": "typescript",           "tags": ["todo"] },
-        { "name": "ubuntu",               "tags": ["todo"] },
+        { "name": "twig",                 "tags": ["todo v.1.2.0"] },
+        { "name": "typescript",           "tags": ["todo v.1.2.0"] },
+        { "name": "ubuntu",               "tags": ["todo v.1.2.0"] },
         { "name": "vim",                  "tags": ["editor", "bash"] },
         { "name": "w3c",                  "tags": ["platform", "validation"] },
+        { "name": "webpack",              "tags": ["todo v.1.3.0"] },
         { "name": "wordpress",            "tags": ["cms"] },
-        { "name": "yaml",                 "tags": ["todo"] },
-        { "name": "yii",                  "tags": ["todo"] },
+        { "name": "yaml",                 "tags": ["todo v.1.2.0"] },
+        { "name": "yii",                  "tags": ["todo v.1.2.0"] },
         { "name": "zend",                 "tags": ["php", "framework"] }
       ];
 
@@ -156,7 +181,13 @@
 </head>
 <body class="bg-animate">
     
-    <a href="https://github.com/Sp0ne/codeicons" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#64CEAA; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+    <a href="https://github.com/Sp0ne/codeicons" class="github-corner" aria-label="View source on Github">
+        <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#64CEAA; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+            <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+        </svg>
+    </a>
     
     <h1>Codeicons</h1>
     <h2>A small Icons set collections for developers</h2>
@@ -166,7 +197,11 @@
 
     <p>Code by Vinces.io</p>
 
-    <p class="infos">All brand icons are property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.</p>
+    <p class="infos">
+        All brand icons are property of their respective owners. 
+        All company, product and service names used in this website are for identification purposes only. 
+        Use of these names, logos, and brands does not imply endorsement.
+    </p>
 
 </body>
 </html>

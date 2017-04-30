@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codeicons';
-  src:  url('#{$icomoon-font-path}/codeicons.eot?szi7ty');
-  src:  url('#{$icomoon-font-path}/codeicons.eot?szi7ty#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codeicons.ttf?szi7ty') format('truetype'),
-    url('#{$icomoon-font-path}/codeicons.woff?szi7ty') format('woff'),
-    url('#{$icomoon-font-path}/codeicons.svg?szi7ty#codeicons') format('svg');
+  src:  url('#{$icomoon-font-path}/codeicons.eot?m3w6gb');
+  src:  url('#{$icomoon-font-path}/codeicons.eot?m3w6gb#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codeicons.ttf?m3w6gb') format('truetype'),
+    url('#{$icomoon-font-path}/codeicons.woff?m3w6gb') format('woff'),
+    url('#{$icomoon-font-path}/codeicons.svg?m3w6gb#codeicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -86,6 +86,11 @@
     content: $codeicon-bower-line;
   }
 }
+.codeicon-bugsense {
+  &:before {
+    content: $codeicon-bugsense;
+  }
+}
 .codeicon-chrome {
   &:before {
     content: $codeicon-chrome;
@@ -99,6 +104,11 @@
 .codeicon-cnormal-line {
   &:before {
     content: $codeicon-cnormal-line;
+  }
+}
+.codeicon-coda {
+  &:before {
+    content: $codeicon-coda;
   }
 }
 .codeicon-codeigniter {
@@ -119,6 +129,11 @@
 .codeicon-coffeescript {
   &:before {
     content: $codeicon-coffeescript;
+  }
+}
+.codeicon-compass {
+  &:before {
+    content: $codeicon-compass;
   }
 }
 .codeicon-composer {
@@ -149,6 +164,11 @@
 .codeicon-css3 {
   &:before {
     content: $codeicon-css3;
+  }
+}
+.codeicon-cssdesk {
+  &:before {
+    content: $codeicon-cssdesk;
   }
 }
 .codeicon-csstricks {
@@ -201,6 +221,11 @@
     content: $codeicon-drupal;
   }
 }
+.codeicon-erlang {
+  &:before {
+    content: $codeicon-erlang;
+  }
+}
 .codeicon-filezilla {
   &:before {
     content: $codeicon-filezilla;
@@ -249,6 +274,11 @@
 .codeicon-gradle {
   &:before {
     content: $codeicon-gradle;
+  }
+}
+.codeicon-grafikart {
+  &:before {
+    content: $codeicon-grafikart;
   }
 }
 .codeicon-grunt {
@@ -316,6 +346,11 @@
     content: $codeicon-javascript;
   }
 }
+.codeicon-jeet {
+  &:before {
+    content: $codeicon-jeet;
+  }
+}
 .codeicon-jekyll {
   &:before {
     content: $codeicon-jekyll;
@@ -364,6 +399,11 @@
 .codeicon-meteor {
   &:before {
     content: $codeicon-meteor;
+  }
+}
+.codeicon-mocha {
+  &:before {
+    content: $codeicon-mocha;
   }
 }
 .codeicon-mongodb {
@@ -431,6 +471,16 @@
     content: $codeicon-premierepro;
   }
 }
+.codeicon-prolog {
+  &:before {
+    content: $codeicon-prolog;
+  }
+}
+.codeicon-purescript {
+  &:before {
+    content: $codeicon-purescript;
+  }
+}
 .codeicon-python {
   &:before {
     content: $codeicon-python;
@@ -456,6 +506,11 @@
     content: $codeicon-redhat;
   }
 }
+.codeicon-redis {
+  &:before {
+    content: $codeicon-redis;
+  }
+}
 .codeicon-ruby {
   &:before {
     content: $codeicon-ruby;
@@ -474,6 +529,11 @@
 .codeicon-slimphp {
   &:before {
     content: $codeicon-slimphp;
+  }
+}
+.codeicon-smashingmagazine {
+  &:before {
+    content: $codeicon-smashingmagazine;
   }
 }
 .codeicon-sourcetree {
@@ -511,6 +571,11 @@
     content: $codeicon-terminal;
   }
 }
+.codeicon-travis {
+  &:before {
+    content: $codeicon-travis;
+  }
+}
 .codeicon-trello {
   &:before {
     content: $codeicon-trello;
@@ -539,6 +604,11 @@
 .codeicon-w3c {
   &:before {
     content: $codeicon-w3c;
+  }
+}
+.codeicon-webpack {
+  &:before {
+    content: $codeicon-webpack;
   }
 }
 .codeicon-wordpress {

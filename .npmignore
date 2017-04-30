@@ -1,0 +1,7 @@
+# OS generated files #
+._*
+_*
+.idea
+
+# remove from NPM package
+bower.json

@@ -7,7 +7,7 @@ A simple icon's collection for development languages, programming tools and othe
 
 Have a look to the [demo page](https://sp0ne.github.io/codeicons/).
 
-![Codeicons preview](http://i.imgur.com/XYtRtyd.jpg)
+![Codeicons preview](https://sp0ne.github.io/codeicons/capture/capture_v.1.3.0.png)
 
 
 ---
@@ -99,6 +99,7 @@ Load  `npm install grunt-contrib-copy --save-dev` and add a task in your `/Grunt
 
 ### Changelog
 
+- v1.3.0 - Add news icons svg & Improve fix demo. (Total : 121 files / ~ 116 icons)
 - v1.2.0 - Add news icons svg. (Total : 106 files / ~ 100 icons)
 - v1.1.1 - Minors bower fixs and demo.
 - v1.1.0 - Add icons svg + add src new icon + readme + minors fixs.
@@ -129,7 +130,7 @@ Under [MIT Licence](https://github.com/Sp0ne/codeicons/blob/master/LICENSE)
 ### Credits
 
 - Final font build with [Icomoon app](https://icomoon.io/)
-- Inspired and partial fork by [Devicon](https://devicon.fr/)
+- Inspired and partial fork by [Devicon](http://devicon.fr/)
 
 
 

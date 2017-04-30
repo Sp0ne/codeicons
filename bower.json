@@ -1,13 +1,10 @@
 {
   "name": "codeicons",
-  "description": "A simple icon's collection for development languages, programming tools and other work environment.",
-  "keywords": [ "codeicons", "programming", "tools", "development", "languages", "icons", "svg", "font", "devicons" ],
-  "version": "1.2.0",
+  "description": "A simple icons collection for development languages, programming tools and other work environment.",
+  "keywords": [ "codeicons", "font", "programming", "tools", "development", "languages", "icons", "svg",  "devicons" ],
+  "version": "1.3.0",
   "homepage": "https://sp0ne.github.io/codeicons/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Sp0ne/codeicons.git"
-  },
+  "license": "MIT",
   "main": [
     "css/codeicons.css",
     "fonts/codeicons.eot",
@@ -15,10 +12,14 @@
     "fonts/codeicons.ttf",
     "fonts/codeicons.woff"
   ],
-  "authors": [ "Vinces <hello@vinces.io> (https://vinces.io)" ],
   "ignore": [
     "**/*.txt",
-    "*.json"
+    "*.json",
+    "_*"
   ],
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sp0ne/codeicons.git"
+  },
+  "authors": [ "Vinces <hello@vinces.io> (https://vinces.io)" ] 
 }

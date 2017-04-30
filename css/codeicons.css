@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codeicons';
-  src:  url('fonts/codeicons.eot');
-  src:  url('fonts/codeicons.eot#iefix') format('embedded-opentype'),
-    url('fonts/codeicons.ttf') format('truetype'),
-    url('fonts/codeicons.woff') format('woff'),
-    url('fonts/codeicons.svg#codeicons') format('svg');
+  src:  url('fonts/codeicons.eot?m3w6gb');
+  src:  url('fonts/codeicons.eot?m3w6gb#iefix') format('embedded-opentype'),
+    url('fonts/codeicons.ttf?m3w6gb') format('truetype'),
+    url('fonts/codeicons.woff?m3w6gb') format('woff'),
+    url('fonts/codeicons.svg?m3w6gb#codeicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -60,289 +60,331 @@
 .codeicon-bower-line:before {
   content: "\e90b";
 }
-.codeicon-chrome:before {
+.codeicon-bugsense:before {
   content: "\e90c";
 }
-.codeicon-cnormal:before {
+.codeicon-chrome:before {
   content: "\e90d";
 }
-.codeicon-cnormal-line:before {
+.codeicon-cnormal:before {
   content: "\e90e";
 }
-.codeicon-codeigniter:before {
+.codeicon-cnormal-line:before {
   content: "\e90f";
 }
-.codeicon-codepen:before {
+.codeicon-coda:before {
   content: "\e910";
 }
-.codeicon-codrops:before {
+.codeicon-codeigniter:before {
   content: "\e911";
 }
-.codeicon-coffeescript:before {
+.codeicon-codepen:before {
   content: "\e912";
 }
-.codeicon-composer:before {
+.codeicon-codrops:before {
   content: "\e913";
 }
-.codeicon-confluence:before {
+.codeicon-coffeescript:before {
   content: "\e914";
 }
-.codeicon-cplusplus:before {
+.codeicon-compass:before {
   content: "\e915";
 }
-.codeicon-cplusplus-line:before {
+.codeicon-composer:before {
   content: "\e916";
 }
-.codeicon-creativecommons:before {
+.codeicon-confluence:before {
   content: "\e917";
 }
-.codeicon-css3:before {
+.codeicon-cplusplus:before {
   content: "\e918";
 }
-.codeicon-csstricks:before {
+.codeicon-cplusplus-line:before {
   content: "\e919";
 }
-.codeicon-cucumber:before {
+.codeicon-creativecommons:before {
   content: "\e91a";
 }
-.codeicon-debian:before {
+.codeicon-css3:before {
   content: "\e91b";
 }
-.codeicon-django:before {
+.codeicon-cssdesk:before {
   content: "\e91c";
 }
-.codeicon-docker:before {
+.codeicon-csstricks:before {
   content: "\e91d";
 }
-.codeicon-doctrine:before {
+.codeicon-cucumber:before {
   content: "\e91e";
 }
-.codeicon-doctrine-line:before {
+.codeicon-debian:before {
   content: "\e91f";
 }
-.codeicon-dotnet:before {
+.codeicon-django:before {
   content: "\e920";
 }
-.codeicon-dropbox:before {
+.codeicon-docker:before {
   content: "\e921";
 }
-.codeicon-drupal:before {
+.codeicon-doctrine:before {
   content: "\e922";
 }
-.codeicon-filezilla:before {
+.codeicon-doctrine-line:before {
   content: "\e923";
 }
-.codeicon-firefox:before {
+.codeicon-dotnet:before {
   content: "\e924";
 }
-.codeicon-foundation:before {
+.codeicon-dropbox:before {
   content: "\e925";
 }
-.codeicon-gimp:before {
+.codeicon-drupal:before {
   content: "\e926";
 }
-.codeicon-git:before {
+.codeicon-erlang:before {
   content: "\e927";
 }
-.codeicon-github:before {
+.codeicon-filezilla:before {
   content: "\e928";
 }
-.codeicon-gitkraken:before {
+.codeicon-firefox:before {
   content: "\e929";
 }
-.codeicon-gitlab:before {
+.codeicon-foundation:before {
   content: "\e92a";
 }
-.codeicon-go:before {
+.codeicon-gimp:before {
   content: "\e92b";
 }
-.codeicon-gradle:before {
+.codeicon-git:before {
   content: "\e92c";
 }
-.codeicon-grunt:before {
+.codeicon-github:before {
   content: "\e92d";
 }
-.codeicon-grunt-line:before {
+.codeicon-gitkraken:before {
   content: "\e92e";
 }
-.codeicon-gulp:before {
+.codeicon-gitlab:before {
   content: "\e92f";
 }
-.codeicon-heroku:before {
+.codeicon-go:before {
   content: "\e930";
 }
-.codeicon-html5:before {
+.codeicon-gradle:before {
   content: "\e931";
 }
-.codeicon-illustrator:before {
+.codeicon-grafikart:before {
   content: "\e932";
 }
-.codeicon-in2com:before {
+.codeicon-grunt:before {
   content: "\e933";
 }
-.codeicon-indesign:before {
+.codeicon-grunt-line:before {
   content: "\e934";
 }
-.codeicon-inkscape:before {
+.codeicon-gulp:before {
   content: "\e935";
 }
-.codeicon-ionic:before {
+.codeicon-heroku:before {
   content: "\e936";
 }
-.codeicon-jasmine:before {
+.codeicon-html5:before {
   content: "\e937";
 }
-.codeicon-java:before {
+.codeicon-illustrator:before {
   content: "\e938";
 }
-.codeicon-javascript:before {
+.codeicon-in2com:before {
   content: "\e939";
 }
-.codeicon-jekyll:before {
+.codeicon-indesign:before {
   content: "\e93a";
 }
-.codeicon-jekyllsmall:before {
+.codeicon-inkscape:before {
   content: "\e93b";
 }
-.codeicon-jenkins:before {
+.codeicon-ionic:before {
   content: "\e93c";
 }
-.codeicon-jetbrains:before {
+.codeicon-jasmine:before {
   content: "\e93d";
 }
-.codeicon-jquery:before {
+.codeicon-java:before {
   content: "\e93e";
 }
-.codeicon-krakenjs:before {
+.codeicon-javascript:before {
   content: "\e93f";
 }
-.codeicon-laravel:before {
+.codeicon-jeet:before {
   content: "\e940";
 }
-.codeicon-less:before {
+.codeicon-jekyll:before {
   content: "\e941";
 }
-.codeicon-linux:before {
+.codeicon-jekyllsmall:before {
   content: "\e942";
 }
-.codeicon-meteor:before {
+.codeicon-jenkins:before {
   content: "\e943";
 }
-.codeicon-mongodb:before {
+.codeicon-jetbrains:before {
   content: "\e944";
 }
-.codeicon-mysql:before {
+.codeicon-jquery:before {
   content: "\e945";
 }
-.codeicon-nginx:before {
+.codeicon-krakenjs:before {
   content: "\e946";
 }
-.codeicon-nodejs:before {
+.codeicon-laravel:before {
   content: "\e947";
 }
-.codeicon-nodewebkit:before {
+.codeicon-less:before {
   content: "\e948";
 }
-.codeicon-npm:before {
+.codeicon-linux:before {
   content: "\e949";
 }
-.codeicon-oracle:before {
+.codeicon-meteor:before {
   content: "\e94a";
 }
-.codeicon-perl:before {
+.codeicon-mocha:before {
   content: "\e94b";
 }
-.codeicon-photoshop:before {
+.codeicon-mongodb:before {
   content: "\e94c";
 }
-.codeicon-php:before {
+.codeicon-mysql:before {
   content: "\e94d";
 }
-.codeicon-phpstorm:before {
+.codeicon-nginx:before {
   content: "\e94e";
 }
-.codeicon-postgresql:before {
+.codeicon-nodejs:before {
   content: "\e94f";
 }
-.codeicon-premierepro:before {
+.codeicon-nodewebkit:before {
   content: "\e950";
 }
-.codeicon-python:before {
+.codeicon-npm:before {
   content: "\e951";
 }
-.codeicon-rails:before {
+.codeicon-oracle:before {
   content: "\e952";
 }
-.codeicon-raspberry:before {
+.codeicon-perl:before {
   content: "\e953";
 }
-.codeicon-react:before {
+.codeicon-photoshop:before {
   content: "\e954";
 }
-.codeicon-redhat:before {
+.codeicon-php:before {
   content: "\e955";
 }
-.codeicon-ruby:before {
+.codeicon-phpstorm:before {
   content: "\e956";
 }
-.codeicon-sass:before {
+.codeicon-postgresql:before {
   content: "\e957";
 }
-.codeicon-sequelize:before {
+.codeicon-premierepro:before {
   content: "\e958";
 }
-.codeicon-slimphp:before {
+.codeicon-prolog:before {
   content: "\e959";
 }
-.codeicon-sourcetree:before {
+.codeicon-purescript:before {
   content: "\e95a";
 }
-.codeicon-ssh:before {
+.codeicon-python:before {
   content: "\e95b";
 }
-.codeicon-stackoverflow:before {
+.codeicon-rails:before {
   content: "\e95c";
 }
-.codeicon-sublime:before {
+.codeicon-raspberry:before {
   content: "\e95d";
 }
-.codeicon-swift:before {
+.codeicon-react:before {
   content: "\e95e";
 }
-.codeicon-symfony:before {
+.codeicon-redhat:before {
   content: "\e95f";
 }
-.codeicon-terminal:before {
+.codeicon-redis:before {
   content: "\e960";
 }
-.codeicon-trello:before {
+.codeicon-ruby:before {
   content: "\e961";
 }
-.codeicon-twig:before {
+.codeicon-sass:before {
   content: "\e962";
 }
-.codeicon-typescript:before {
+.codeicon-sequelize:before {
   content: "\e963";
 }
-.codeicon-ubuntu:before {
+.codeicon-slimphp:before {
   content: "\e964";
 }
-.codeicon-vim:before {
+.codeicon-smashingmagazine:before {
   content: "\e965";
 }
-.codeicon-w3c:before {
+.codeicon-sourcetree:before {
   content: "\e966";
 }
-.codeicon-wordpress:before {
+.codeicon-ssh:before {
   content: "\e967";
 }
-.codeicon-yaml:before {
+.codeicon-stackoverflow:before {
   content: "\e968";
 }
-.codeicon-yii:before {
+.codeicon-sublime:before {
   content: "\e969";
 }
-.codeicon-zend:before {
+.codeicon-swift:before {
   content: "\e96a";
+}
+.codeicon-symfony:before {
+  content: "\e96b";
+}
+.codeicon-terminal:before {
+  content: "\e96c";
+}
+.codeicon-travis:before {
+  content: "\e96d";
+}
+.codeicon-trello:before {
+  content: "\e96e";
+}
+.codeicon-twig:before {
+  content: "\e96f";
+}
+.codeicon-typescript:before {
+  content: "\e970";
+}
+.codeicon-ubuntu:before {
+  content: "\e971";
+}
+.codeicon-vim:before {
+  content: "\e972";
+}
+.codeicon-w3c:before {
+  content: "\e973";
+}
+.codeicon-webpack:before {
+  content: "\e974";
+}
+.codeicon-wordpress:before {
+  content: "\e975";
+}
+.codeicon-yaml:before {
+  content: "\e976";
+}
+.codeicon-yii:before {
+  content: "\e977";
+}
+.codeicon-zend:before {
+  content: "\e978";
 }
 
